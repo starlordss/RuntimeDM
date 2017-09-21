@@ -1,0 +1,345 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		01909DF21F14BFAE00F3E492 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 01909DF11F14BFAE00F3E492 /* main.m */; };
+		01909DF51F14BFAE00F3E492 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 01909DF41F14BFAE00F3E492 /* AppDelegate.m */; };
+		01909DF81F14BFAE00F3E492 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 01909DF71F14BFAE00F3E492 /* ViewController.m */; };
+		01909DFB1F14BFAE00F3E492 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 01909DF91F14BFAE00F3E492 /* Main.storyboard */; };
+		01909DFD1F14BFAE00F3E492 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 01909DFC1F14BFAE00F3E492 /* Assets.xcassets */; };
+		01909E001F14BFAE00F3E492 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 01909DFE1F14BFAE00F3E492 /* LaunchScreen.storyboard */; };
+		01909E0B1F14C11100F3E492 /* StatusModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 01909E081F14C11100F3E492 /* StatusModel.m */; };
+		01909E0E1F14C5C000F3E492 /* status.plist in Resources */ = {isa = PBXBuildFile; fileRef = 01909E0D1F14C5C000F3E492 /* status.plist */; };
+		01909E141F14D32D00F3E492 /* NSObject+Model.m in Sources */ = {isa = PBXBuildFile; fileRef = 01909E131F14D32D00F3E492 /* NSObject+Model.m */; };
+		01909E1A1F14E96200F3E492 /* NSDictionary+SZProperty.m in Sources */ = {isa = PBXBuildFile; fileRef = 01909E191F14E96200F3E492 /* NSDictionary+SZProperty.m */; };
+		01909E1D1F14E9D500F3E492 /* User.m in Sources */ = {isa = PBXBuildFile; fileRef = 01909E1C1F14E9D500F3E492 /* User.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		01909DED1F14BFAE00F3E492 /* Runtime之字典转模型KVC实现.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Runtime之字典转模型KVC实现.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		01909DF11F14BFAE00F3E492 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		01909DF31F14BFAE00F3E492 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		01909DF41F14BFAE00F3E492 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		01909DF61F14BFAE00F3E492 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		01909DF71F14BFAE00F3E492 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		01909DFA1F14BFAE00F3E492 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		01909DFC1F14BFAE00F3E492 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		01909DFF1F14BFAE00F3E492 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		01909E011F14BFAE00F3E492 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		01909E071F14C11100F3E492 /* StatusModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StatusModel.h; sourceTree = "<group>"; };
+		01909E081F14C11100F3E492 /* StatusModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StatusModel.m; sourceTree = "<group>"; };
+		01909E0D1F14C5C000F3E492 /* status.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = status.plist; sourceTree = "<group>"; };
+		01909E121F14D32D00F3E492 /* NSObject+Model.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+Model.h"; sourceTree = "<group>"; };
+		01909E131F14D32D00F3E492 /* NSObject+Model.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+Model.m"; sourceTree = "<group>"; };
+		01909E181F14E96200F3E492 /* NSDictionary+SZProperty.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+SZProperty.h"; sourceTree = "<group>"; };
+		01909E191F14E96200F3E492 /* NSDictionary+SZProperty.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+SZProperty.m"; sourceTree = "<group>"; };
+		01909E1B1F14E9D500F3E492 /* User.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = User.h; sourceTree = "<group>"; };
+		01909E1C1F14E9D500F3E492 /* User.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = User.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		01909DEA1F14BFAE00F3E492 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		01909DE41F14BFAE00F3E492 = {
+			isa = PBXGroup;
+			children = (
+				01909DEF1F14BFAE00F3E492 /* Runtime之字典转模型KVC实现 */,
+				01909DEE1F14BFAE00F3E492 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		01909DEE1F14BFAE00F3E492 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				01909DED1F14BFAE00F3E492 /* Runtime之字典转模型KVC实现.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		01909DEF1F14BFAE00F3E492 /* Runtime之字典转模型KVC实现 */ = {
+			isa = PBXGroup;
+			children = (
+				01909DF31F14BFAE00F3E492 /* AppDelegate.h */,
+				01909DF41F14BFAE00F3E492 /* AppDelegate.m */,
+				01909DF61F14BFAE00F3E492 /* ViewController.h */,
+				01909DF71F14BFAE00F3E492 /* ViewController.m */,
+				01909E071F14C11100F3E492 /* StatusModel.h */,
+				01909E081F14C11100F3E492 /* StatusModel.m */,
+				01909E1B1F14E9D500F3E492 /* User.h */,
+				01909E1C1F14E9D500F3E492 /* User.m */,
+				01909E181F14E96200F3E492 /* NSDictionary+SZProperty.h */,
+				01909E191F14E96200F3E492 /* NSDictionary+SZProperty.m */,
+				01909E121F14D32D00F3E492 /* NSObject+Model.h */,
+				01909E131F14D32D00F3E492 /* NSObject+Model.m */,
+				01909DF91F14BFAE00F3E492 /* Main.storyboard */,
+				01909DFC1F14BFAE00F3E492 /* Assets.xcassets */,
+				01909DFE1F14BFAE00F3E492 /* LaunchScreen.storyboard */,
+				01909E011F14BFAE00F3E492 /* Info.plist */,
+				01909DF01F14BFAE00F3E492 /* Supporting Files */,
+			);
+			path = "Runtime之字典转模型KVC实现";
+			sourceTree = "<group>";
+		};
+		01909DF01F14BFAE00F3E492 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				01909E0D1F14C5C000F3E492 /* status.plist */,
+				01909DF11F14BFAE00F3E492 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		01909DEC1F14BFAE00F3E492 /* Runtime之字典转模型KVC实现 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 01909E041F14BFAE00F3E492 /* Build configuration list for PBXNativeTarget "Runtime之字典转模型KVC实现" */;
+			buildPhases = (
+				01909DE91F14BFAE00F3E492 /* Sources */,
+				01909DEA1F14BFAE00F3E492 /* Frameworks */,
+				01909DEB1F14BFAE00F3E492 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Runtime之字典转模型KVC实现";
+			productName = "Runtime之字典转模型KVC实现";
+			productReference = 01909DED1F14BFAE00F3E492 /* Runtime之字典转模型KVC实现.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		01909DE51F14BFAE00F3E492 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = Zahi;
+				TargetAttributes = {
+					01909DEC1F14BFAE00F3E492 = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 01909DE81F14BFAE00F3E492 /* Build configuration list for PBXProject "Runtime之字典转模型KVC实现" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 01909DE41F14BFAE00F3E492;
+			productRefGroup = 01909DEE1F14BFAE00F3E492 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				01909DEC1F14BFAE00F3E492 /* Runtime之字典转模型KVC实现 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		01909DEB1F14BFAE00F3E492 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				01909E001F14BFAE00F3E492 /* LaunchScreen.storyboard in Resources */,
+				01909DFD1F14BFAE00F3E492 /* Assets.xcassets in Resources */,
+				01909E0E1F14C5C000F3E492 /* status.plist in Resources */,
+				01909DFB1F14BFAE00F3E492 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		01909DE91F14BFAE00F3E492 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				01909E1D1F14E9D500F3E492 /* User.m in Sources */,
+				01909DF81F14BFAE00F3E492 /* ViewController.m in Sources */,
+				01909E0B1F14C11100F3E492 /* StatusModel.m in Sources */,
+				01909E1A1F14E96200F3E492 /* NSDictionary+SZProperty.m in Sources */,
+				01909DF51F14BFAE00F3E492 /* AppDelegate.m in Sources */,
+				01909E141F14D32D00F3E492 /* NSObject+Model.m in Sources */,
+				01909DF21F14BFAE00F3E492 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		01909DF91F14BFAE00F3E492 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				01909DFA1F14BFAE00F3E492 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		01909DFE1F14BFAE00F3E492 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				01909DFF1F14BFAE00F3E492 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		01909E021F14BFAE00F3E492 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		01909E031F14BFAE00F3E492 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		01909E051F14BFAE00F3E492 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Runtime之字典转模型KVC实现/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.zahi.Runtime------KVC--";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		01909E061F14BFAE00F3E492 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Runtime之字典转模型KVC实现/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.zahi.Runtime------KVC--";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		01909DE81F14BFAE00F3E492 /* Build configuration list for PBXProject "Runtime之字典转模型KVC实现" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				01909E021F14BFAE00F3E492 /* Debug */,
+				01909E031F14BFAE00F3E492 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		01909E041F14BFAE00F3E492 /* Build configuration list for PBXNativeTarget "Runtime之字典转模型KVC实现" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				01909E051F14BFAE00F3E492 /* Debug */,
+				01909E061F14BFAE00F3E492 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 01909DE51F14BFAE00F3E492 /* Project object */;
+}
