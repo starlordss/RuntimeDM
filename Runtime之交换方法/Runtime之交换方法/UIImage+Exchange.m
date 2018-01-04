@@ -18,17 +18,13 @@
  */
 + (void)load
 {
- 
     // 获取"类方法"的某个方法
     Method m1 = class_getClassMethod(self, @selector(imageNamed:));
-    
     Method m2 = class_getClassMethod(self, @selector(sz_imageNamed:));
-    
     
     // 交换方法的实现
     method_exchangeImplementations(m1, m2);
 }
-
 
 + (__kindof UIImage *)sz_imageNamed:(NSString *)name
 {
